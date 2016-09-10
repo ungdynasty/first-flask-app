@@ -6,7 +6,7 @@ app.config['DEBUG'] = True
 
 @app.route("/")
 def hello():
-    return "Hello world!"
+    return "whats ur name internet, stop stalking me"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
